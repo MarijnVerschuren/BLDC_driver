@@ -2187,7 +2187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Marijn_KiCad:ACM2012_TDK_UPDATE"
+		(property "Footprint" "Marijn_KiCad:ACM2012_900_2P_T002_Correct"
 			(at 80.01 45.72 0)
 			(effects
 				(font
@@ -2238,6 +2238,12 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/55e5f9ee-4ad9-4c00-8411-66894e392a47/980bf964-91c2-4997-a9de-db50a0c197aa"
+					(reference "FL1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/bcef801b-ac65-4b5b-aaac-ab2b26da4b0f"
 					(reference "FL1")
 					(unit 1)
 				)
@@ -2324,6 +2330,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/bcef801b-ac65-4b5b-aaac-ab2b26da4b0f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/f183b390-0c59-4c65-8a55-408064b389c7"
 					(reference "R1")
@@ -2392,6 +2404,12 @@
 			(project "Keyboard_PCB"
 				(path "/55e5f9ee-4ad9-4c00-8411-66894e392a47/980bf964-91c2-4997-a9de-db50a0c197aa"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/bcef801b-ac65-4b5b-aaac-ab2b26da4b0f"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2494,6 +2512,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/bcef801b-ac65-4b5b-aaac-ab2b26da4b0f"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/f183b390-0c59-4c65-8a55-408064b389c7"
 					(reference "U2")
@@ -2562,6 +2586,12 @@
 			(project "Keyboard_PCB"
 				(path "/55e5f9ee-4ad9-4c00-8411-66894e392a47/980bf964-91c2-4997-a9de-db50a0c197aa"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/bcef801b-ac65-4b5b-aaac-ab2b26da4b0f"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2692,6 +2722,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/bcef801b-ac65-4b5b-aaac-ab2b26da4b0f"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/f183b390-0c59-4c65-8a55-408064b389c7"
 					(reference "J1")
@@ -2760,6 +2796,12 @@
 			(project "Keyboard_PCB"
 				(path "/55e5f9ee-4ad9-4c00-8411-66894e392a47/980bf964-91c2-4997-a9de-db50a0c197aa"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/bcef801b-ac65-4b5b-aaac-ab2b26da4b0f"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2834,6 +2876,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/bcef801b-ac65-4b5b-aaac-ab2b26da4b0f"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/f183b390-0c59-4c65-8a55-408064b389c7"
 					(reference "#PWR02")
@@ -2902,6 +2950,12 @@
 			(project "Keyboard_PCB"
 				(path "/55e5f9ee-4ad9-4c00-8411-66894e392a47/980bf964-91c2-4997-a9de-db50a0c197aa"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/bcef801b-ac65-4b5b-aaac-ab2b26da4b0f"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

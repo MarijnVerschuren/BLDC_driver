@@ -390,6 +390,10 @@
     [
       "bcef801b-ac65-4b5b-aaac-ab2b26da4b0f",
       "USB"
+    ],
+    [
+      "156cc71e-604a-4062-8209-9f4827fd9816",
+      "phase_logic"
     ]
   ],
   "text_variables": {}
