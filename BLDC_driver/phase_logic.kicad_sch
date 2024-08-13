@@ -866,30 +866,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "CSS2H-3920R-L500F_1_1"
 				(pin passive line
@@ -911,45 +887,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "4"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1529,6 +1469,18 @@
 		(uuid "04839df5-1b8a-49fc-91ba-3d296806096c")
 	)
 	(junction
+		(at 158.75 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c2ea1d2-94b7-4bab-ae36-abf17bd146de")
+	)
+	(junction
+		(at 205.74 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11027da5-334b-4fb6-b4fe-54df0b3e8062")
+	)
+	(junction
 		(at 82.55 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1595,6 +1547,12 @@
 		(uuid "503930ab-382a-45d7-8083-f4c72d97c778")
 	)
 	(junction
+		(at 111.76 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55b3d7d3-e274-4ba2-b528-e3a2cc733b77")
+	)
+	(junction
 		(at 41.91 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1629,6 +1587,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "748d4144-e524-4045-bf3f-8c64f6638119")
+	)
+	(junction
+		(at 111.76 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "763e8890-38a1-4456-8431-c3212703b479")
 	)
 	(junction
 		(at 41.91 116.84)
@@ -1721,10 +1685,22 @@
 		(uuid "bffc9d53-0c7c-4420-bebc-0f1c2f414465")
 	)
 	(junction
+		(at 158.75 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3afbea0-f7da-4a6c-9ece-a9c765b051f6")
+	)
+	(junction
 		(at 195.58 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cac4fdd0-1a1a-454a-b879-f95b0d018095")
+	)
+	(junction
+		(at 205.74 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb95a42c-fc03-43a3-b122-739df1b9adeb")
 	)
 	(junction
 		(at 158.75 85.09)
@@ -1836,6 +1812,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 85.09) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cc7351-34c5-4bd9-9568-762a9e8dd53c")
+	)
+	(wire
+		(pts
 			(xy 139.7 58.42) (xy 139.7 63.5)
 		)
 		(stroke
@@ -1893,6 +1879,16 @@
 			(type default)
 		)
 		(uuid "084e067e-8d8c-4c59-a9eb-d63ce8875da5")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 205.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b191727-b8b7-45ec-9a32-48bb86f1cc31")
 	)
 	(wire
 		(pts
@@ -2116,6 +2112,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 85.09) (xy 111.76 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2483b289-fc2d-49f9-a7a9-64a458e6594e")
+	)
+	(wire
+		(pts
 			(xy 41.91 123.19) (xy 41.91 125.73)
 		)
 		(stroke
@@ -2123,6 +2129,16 @@
 			(type default)
 		)
 		(uuid "2589e737-8b53-4385-9ffd-06380be3b404")
+	)
+	(wire
+		(pts
+			(xy 205.74 92.71) (xy 205.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25bda318-aa5f-4a9c-9995-637fe57eab85")
 	)
 	(wire
 		(pts
@@ -2206,6 +2222,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 92.71) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb08d17-1051-42a1-8a8b-27ed65fe9e43")
+	)
+	(wire
+		(pts
 			(xy 177.8 44.45) (xy 180.34 44.45)
 		)
 		(stroke
@@ -2286,6 +2312,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 92.71) (xy 201.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4175833e-5e10-432c-ba18-a4aa0a847540")
+	)
+	(wire
+		(pts
 			(xy 39.37 116.84) (xy 41.91 116.84)
 		)
 		(stroke
@@ -2293,6 +2329,16 @@
 			(type default)
 		)
 		(uuid "42db4866-f507-4904-abd4-9db2b8e0814f")
+	)
+	(wire
+		(pts
+			(xy 107.95 92.71) (xy 111.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ab073a-7e9f-471e-a613-7891a0dd075d")
 	)
 	(wire
 		(pts
@@ -2586,6 +2632,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 96.52) (xy 158.75 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c086c2-26f9-4ec5-b5e0-c29a27a1aaab")
+	)
+	(wire
+		(pts
 			(xy 205.74 63.5) (xy 205.74 71.12)
 		)
 		(stroke
@@ -2663,6 +2719,16 @@
 			(type default)
 		)
 		(uuid "6fc379ec-50fd-461b-a9fb-02f72555400e")
+	)
+	(wire
+		(pts
+			(xy 107.95 90.17) (xy 111.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702cc2ac-5b51-44dd-81ce-e5d4054b2163")
 	)
 	(wire
 		(pts
@@ -2826,6 +2892,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 92.71) (xy 111.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838ab3df-4623-4215-a0a6-3338d8a10440")
+	)
+	(wire
+		(pts
 			(xy 41.91 123.19) (xy 50.8 123.19)
 		)
 		(stroke
@@ -2976,6 +3052,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 90.17) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e00592d-9a56-4238-9658-007d48b0b003")
+	)
+	(wire
+		(pts
 			(xy 158.75 53.34) (xy 158.75 49.53)
 		)
 		(stroke
@@ -2983,16 +3069,6 @@
 			(type default)
 		)
 		(uuid "9fb4fbe5-74b3-436f-a8d8-8007a96cc9d5")
-	)
-	(wire
-		(pts
-			(xy 205.74 86.36) (xy 205.74 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3141a5d-732c-4afe-ac3d-f11bafdd361f")
 	)
 	(wire
 		(pts
@@ -3176,6 +3252,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 90.17) (xy 205.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0654375-c7c3-4b9b-9236-9d87e2f1922d")
+	)
+	(wire
+		(pts
 			(xy 195.58 53.34) (xy 205.74 53.34)
 		)
 		(stroke
@@ -3336,16 +3422,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 86.36) (xy 111.76 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dba358b0-73d6-4b0b-8ff2-069e9ad69b51")
-	)
-	(wire
-		(pts
 			(xy 49.53 166.37) (xy 50.8 166.37)
 		)
 		(stroke
@@ -3383,6 +3459,16 @@
 			(type default)
 		)
 		(uuid "dfe53ee0-6eda-4f4b-a46c-b6a19af1301b")
+	)
+	(wire
+		(pts
+			(xy 158.75 90.17) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1fc1e81-f000-4842-a1fe-2b79eaf81fa4")
 	)
 	(wire
 		(pts
@@ -3573,6 +3659,16 @@
 			(type default)
 		)
 		(uuid "fbe6621a-bbbc-46cc-bf6a-8144d65edaec")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.36) (xy 111.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd637577-ee9b-490b-a172-d8bf935e6d79")
 	)
 	(wire
 		(pts
@@ -3914,7 +4010,7 @@
 	)
 	(hierarchical_label "C_CSN"
 		(shape input)
-		(at 201.93 93.98 180)
+		(at 201.93 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3926,7 +4022,7 @@
 	)
 	(hierarchical_label "B_CSN"
 		(shape input)
-		(at 154.94 93.98 180)
+		(at 154.94 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3962,7 +4058,7 @@
 	)
 	(hierarchical_label "B_CSP"
 		(shape input)
-		(at 154.94 88.9 180)
+		(at 154.94 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3986,7 +4082,7 @@
 	)
 	(hierarchical_label "C_CSP"
 		(shape input)
-		(at 201.93 88.9 180)
+		(at 201.93 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3998,7 +4094,7 @@
 	)
 	(hierarchical_label "A_CSN"
 		(shape input)
-		(at 107.95 93.98 180)
+		(at 107.95 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4010,7 +4106,7 @@
 	)
 	(hierarchical_label "A_CSP"
 		(shape input)
-		(at 107.95 88.9 180)
+		(at 107.95 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6602,82 +6698,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Marijn:CSS2H-3920R-L500F")
-		(lib_id "Marijn:CSS2H-3920R-L500F")
-		(at 111.76 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7524f66f-e1af-453d-a1c9-ca39c97b2e51")
-		(property "Reference" "R13"
-			(at 113.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "500u"
-			(at 113.03 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
-			(at 122.936 91.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
-			(at 113.538 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt resistor"
-			(at 114.554 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c097045-f54d-4725-9b39-4930b485b7e9")
-		)
-		(pin "1"
-			(uuid "14a6fe47-0a54-45aa-b918-d4d32dea3a07")
-		)
-		(pin "2"
-			(uuid "0ff85839-96c2-42d8-81a3-16d0b30bd76c")
-		)
-		(pin "2"
-			(uuid "d2cd4a64-94a1-4c74-b6a1-7e9c3fc404d3")
-		)
-		(instances
-			(project ""
-				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 86.36 120.65 180)
 		(unit 1)
@@ -6687,7 +6707,7 @@
 		(dnp no)
 		(uuid "79a77bd4-427c-4698-961f-1940012f10f2")
 		(property "Reference" "R16"
-			(at 89.408 120.65 0)
+			(at 89.154 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +6715,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 86.36 115.824 0)
+			(at 89.154 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6754,7 +6774,7 @@
 		(dnp no)
 		(uuid "7d2be58c-b9af-4324-9548-ace8ff4e5484")
 		(property "Reference" "R17"
-			(at 89.408 140.97 0)
+			(at 89.154 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,7 +6782,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 86.36 136.398 0)
+			(at 89.154 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,6 +6893,76 @@
 			(project ""
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Marijn:CSS2H-3920R-L500F")
+		(at 158.75 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83a3500c-1801-492a-835f-652567191d6b")
+		(property "Reference" "R14"
+			(at 161.29 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500u"
+			(at 161.29 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
+			(at 147.574 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
+			(at 156.972 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt resistor"
+			(at 155.956 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ce93aa2-a9fb-47ff-a19a-1ebb48413881")
+		)
+		(pin "1"
+			(uuid "512731d7-cbec-4b21-aa0e-351c5edd815b")
+		)
+		(instances
+			(project "BLDC_driver"
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7074,82 +7164,6 @@
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Marijn:CSS2H-3920R-L500F")
-		(lib_id "Marijn:CSS2H-3920R-L500F")
-		(at 158.75 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ed00b3c-e91a-4e23-a50a-a152e9ddaf2f")
-		(property "Reference" "R14"
-			(at 160.274 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "500u"
-			(at 160.274 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
-			(at 169.926 91.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
-			(at 160.528 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt resistor"
-			(at 161.544 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d4be375-f667-485b-b6b1-095463f04309")
-		)
-		(pin "1"
-			(uuid "42c273c4-d89d-4ea4-81e3-35613c1247f2")
-		)
-		(pin "2"
-			(uuid "e1f0ffea-14c2-45d1-a939-758eae09e6f3")
-		)
-		(pin "2"
-			(uuid "be3bc4c3-137d-409e-a01c-ca862f529cff")
-		)
-		(instances
-			(project "BLDC_driver"
-				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7493,6 +7507,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Marijn:CSS2H-3920R-L500F")
+		(at 205.74 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3314be3-0131-4f02-a66f-a4d03c8d5d58")
+		(property "Reference" "R15"
+			(at 208.28 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500u"
+			(at 208.28 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
+			(at 194.564 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
+			(at 203.962 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt resistor"
+			(at 202.946 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e61871e-634f-4f01-acdc-a16f040a5741")
+		)
+		(pin "1"
+			(uuid "91647bfd-8769-4a46-9e64-4534406967b7")
+		)
+		(instances
+			(project "BLDC_driver"
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 128.27 76.2 90)
 		(unit 1)
@@ -7554,82 +7638,6 @@
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Marijn:CSS2H-3920R-L500F")
-		(lib_id "Marijn:CSS2H-3920R-L500F")
-		(at 205.74 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4da653d-6cc6-4735-84f0-46d02479f92d")
-		(property "Reference" "R15"
-			(at 207.264 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "500u"
-			(at 207.264 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
-			(at 216.916 91.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
-			(at 207.518 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt resistor"
-			(at 208.534 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea7c066f-5c1b-468a-a01d-82fe5415a082")
-		)
-		(pin "1"
-			(uuid "55767675-3333-4fb9-b372-4d9dc3a08b4c")
-		)
-		(pin "2"
-			(uuid "319ffdf8-35cf-4eab-9040-407a95a676c4")
-		)
-		(pin "2"
-			(uuid "c2c1f7b7-c270-4ba3-9ee3-7b46c4863d0c")
-		)
-		(instances
-			(project "BLDC_driver"
-				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7997,7 +8005,7 @@
 		(dnp no)
 		(uuid "bbb16e38-dffe-4a3e-bc29-a006e5fbd48d")
 		(property "Reference" "R18"
-			(at 89.408 161.29 0)
+			(at 89.154 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8005,7 +8013,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 86.36 156.718 0)
+			(at 89.154 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,6 +8526,76 @@
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Marijn:CSS2H-3920R-L500F")
+		(at 111.76 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb97a098-060c-4fbf-96ab-d9b1d6c1c2a9")
+		(property "Reference" "R13"
+			(at 114.3 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500u"
+			(at 114.3 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
+			(at 100.584 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
+			(at 109.982 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt resistor"
+			(at 108.966 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b31ccc6-d20a-4629-97bd-9e43290435e4")
+		)
+		(pin "1"
+			(uuid "302a2fd5-9220-4058-8abd-c317c8880394")
+		)
+		(instances
+			(project ""
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
+					(reference "R13")
 					(unit 1)
 				)
 			)
