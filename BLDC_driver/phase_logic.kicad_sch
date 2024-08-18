@@ -3720,6 +3720,17 @@
 		)
 		(uuid "de341e17-9b46-4928-a78f-be4861b90cfa")
 	)
+	(label "C"
+		(at 204.47 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00533e26-d644-4b39-99e4-b0c214e8e1ba")
+	)
 	(label "HSA"
 		(at 77.47 46.99 180)
 		(fields_autoplaced yes)
@@ -3796,6 +3807,17 @@
 			(justify right bottom)
 		)
 		(uuid "51b9ed1c-7795-41b1-849d-c632caa97d5d")
+	)
+	(label "A"
+		(at 110.49 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "543d7a0a-a063-4fef-a0ad-167a959cfb08")
 	)
 	(label "LSA"
 		(at 49.53 127 180)
@@ -3950,6 +3972,17 @@
 			(justify left bottom)
 		)
 		(uuid "de6a103d-439f-45ee-9c38-741b7142e6a2")
+	)
+	(label "B"
+		(at 157.48 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e28127fb-a2bb-4964-80fe-5243da3a4629")
 	)
 	(label "HSA"
 		(at 64.77 121.92 0)

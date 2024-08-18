@@ -4279,6 +4279,16 @@
 		)
 		(uuid "18146772-741e-487a-b83f-710e794a4f61")
 	)
+	(text "https://controllerstech.com/stm32-timers-6-timer-synchronization-generate-3-phase-pwm/"
+		(exclude_from_sim no)
+		(at 224.536 127.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c822dee-71e4-41e2-b100-8439ec08999f")
+	)
 	(text "Programming inputs"
 		(exclude_from_sim no)
 		(at 108.712 162.052 0)
