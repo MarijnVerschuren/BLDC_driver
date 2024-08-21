@@ -599,7 +599,31 @@
     ],
     [
       "156cc71e-604a-4062-8209-9f4827fd9816",
-      "phase_logic"
+      "inverter stage"
+    ],
+    [
+      "c5a9ed6b-6ba3-4697-827a-af8ff1c70cda",
+      "gate"
+    ],
+    [
+      "c280de8f-0649-48b6-ad0a-7e5ac2423fd0",
+      "gate1"
+    ],
+    [
+      "3b5a2433-0d94-4db3-8acf-77e522752851",
+      "gate2"
+    ],
+    [
+      "5d5b6445-583e-40c6-a8e8-a33863d8b053",
+      "gate3"
+    ],
+    [
+      "1e0673b2-28ee-4abd-8d95-4b0ef315a2ba",
+      "gate4"
+    ],
+    [
+      "6db2acd3-f369-4a7f-afef-f4c39b70a001",
+      "gate5"
     ]
   ],
   "text_variables": {}
