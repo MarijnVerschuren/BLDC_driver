@@ -179,6 +179,8 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
+        0.3,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -624,6 +626,10 @@
     [
       "6db2acd3-f369-4a7f-afef-f4c39b70a001",
       "gate5"
+    ],
+    [
+      "cf979161-f881-4975-b113-b0ad6afb809e",
+      "power"
     ]
   ],
   "text_variables": {}

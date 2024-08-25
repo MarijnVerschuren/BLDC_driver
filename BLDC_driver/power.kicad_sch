@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "640c1dfb-f83c-4f5e-b002-f7d598db82b3")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "12V"
+		(shape input)
+		(at 254 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4dd27d30-334c-424d-aa5a-c1d2c3d6d78e")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 254 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aefa7000-e6b4-48bf-9a96-825185ad9e3f")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 234.95 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0f7bf25-7928-4f41-be9e-6b58d9644ad3")
+	)
+)

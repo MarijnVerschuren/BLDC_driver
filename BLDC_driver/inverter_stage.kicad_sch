@@ -1192,10 +1192,10 @@
 		(uuid "138fa2cb-99b5-407b-ab19-c601b21f60ce")
 	)
 	(junction
-		(at 49.53 78.105)
+		(at 74.93 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "19a85717-bcd4-4f5e-8b8c-df7c0e0fc3d0")
+		(uuid "13e0880b-c763-4a94-9b72-1586ee0d9d4a")
 	)
 	(junction
 		(at 45.72 139.7)
@@ -1222,6 +1222,12 @@
 		(uuid "2dd8f93c-15ef-4077-bfeb-786441b65a7a")
 	)
 	(junction
+		(at 100.33 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "398be5cd-2e3e-402a-bf8e-0e1e4cf63322")
+	)
+	(junction
 		(at 90.17 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1246,10 +1252,10 @@
 		(uuid "503930ab-382a-45d7-8083-f4c72d97c778")
 	)
 	(junction
-		(at 49.53 88.265)
+		(at 100.33 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55b3d7d3-e274-4ba2-b528-e3a2cc733b77")
+		(uuid "5335d5fb-aaf4-41f7-8e7d-e6e7f3715520")
 	)
 	(junction
 		(at 45.72 146.05)
@@ -1306,22 +1312,28 @@
 		(uuid "9071efd2-e712-4e12-bcf7-3b2cfba6da1b")
 	)
 	(junction
-		(at 74.93 78.105)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92385551-254b-4314-ac7a-4fcc9424dafb")
-	)
-	(junction
 		(at 82.55 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "939a5d96-faf0-43e6-b6a8-3bafe19b149b")
 	)
 	(junction
+		(at 49.53 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d355092-f4b4-45d7-b6a0-2f9c4e362839")
+	)
+	(junction
 		(at 86.36 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e39e12b-a621-4fb4-95c7-694780d3f255")
+	)
+	(junction
+		(at 74.93 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fa80730-aabf-4536-aee7-aa4108d772c7")
 	)
 	(junction
 		(at 86.36 147.32)
@@ -1342,22 +1354,16 @@
 		(uuid "bb9f7006-c5c2-4fd2-b0aa-5ab2d9b204e5")
 	)
 	(junction
+		(at 49.53 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc39fc95-e4f3-49b4-aec3-9c2514328729")
+	)
+	(junction
 		(at 156.21 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bffc9d53-0c7c-4420-bebc-0f1c2f414465")
-	)
-	(junction
-		(at 74.93 88.265)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3afbea0-f7da-4a6c-9ece-a9c765b051f6")
-	)
-	(junction
-		(at 100.33 88.265)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb95a42c-fc03-43a3-b122-739df1b9adeb")
 	)
 	(junction
 		(at 90.17 140.97)
@@ -1394,12 +1400,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9864610-61f5-444c-8ac5-ebae5641f23e")
-	)
-	(junction
-		(at 100.33 78.105)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec93bcba-60b9-41cb-a398-996a55d43619")
 	)
 	(junction
 		(at 74.93 60.96)
@@ -1505,6 +1505,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ed2a48-1bb6-410a-aeeb-49cae2aaad46")
+	)
+	(wire
+		(pts
 			(xy 100.33 54.61) (xy 100.33 60.96)
 		)
 		(stroke
@@ -1542,6 +1552,16 @@
 			(type default)
 		)
 		(uuid "0c590411-41eb-4766-b079-e202922b202f")
+	)
+	(wire
+		(pts
+			(xy 74.93 85.09) (xy 74.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fcb3677-fb88-461f-bacb-cd63be8f1f81")
 	)
 	(wire
 		(pts
@@ -1592,6 +1612,16 @@
 			(type default)
 		)
 		(uuid "1777cccc-9a4e-44f0-bbf3-b781ecaf3bdb")
+	)
+	(wire
+		(pts
+			(xy 100.33 78.74) (xy 100.33 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17a1adfb-219b-4cdd-85a3-3509105af095")
 	)
 	(wire
 		(pts
@@ -1665,16 +1695,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 73.66) (xy 100.33 78.105)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2092b5fc-6177-42e9-a000-54cc20012c61")
-	)
-	(wire
-		(pts
 			(xy 218.44 45.72) (xy 218.44 44.45)
 		)
 		(stroke
@@ -1725,16 +1745,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 84.455) (xy 100.33 88.265)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25bda318-aa5f-4a9c-9995-637fe57eab85")
-	)
-	(wire
-		(pts
 			(xy 217.17 82.55) (xy 217.17 80.01)
 		)
 		(stroke
@@ -1755,7 +1765,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 73.66) (xy 74.93 78.105)
+			(xy 74.93 73.66) (xy 74.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1805,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 84.455) (xy 71.12 84.455)
+			(xy 74.93 85.09) (xy 71.12 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1865,6 +1875,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 78.74) (xy 100.33 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e02888-767a-4a2a-9eae-6cb3c0d2d791")
+	)
+	(wire
+		(pts
 			(xy 218.44 76.2) (xy 217.17 76.2)
 		)
 		(stroke
@@ -1905,17 +1925,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 78.105) (xy 100.33 81.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "404e803d-a67b-420a-b965-7231c4c0975f")
-	)
-	(wire
-		(pts
-			(xy 100.33 84.455) (xy 96.52 84.455)
+			(xy 100.33 85.09) (xy 96.52 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 84.455) (xy 49.53 84.455)
+			(xy 44.45 85.09) (xy 49.53 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2105,6 +2115,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 78.74) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc9b3ef-ea21-4a7d-b460-71845624769e")
+	)
+	(wire
+		(pts
 			(xy 96.52 121.92) (xy 96.52 120.65)
 		)
 		(stroke
@@ -2185,13 +2205,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 88.265) (xy 74.93 84.455)
+			(xy 48.26 78.74) (xy 49.53 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66c086c2-26f9-4ec5-b5e0-c29a27a1aaab")
+		(uuid "67b0fc46-be7d-4a9f-bc8c-f753c45f0f04")
 	)
 	(wire
 		(pts
@@ -2235,6 +2255,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 73.66) (xy 100.33 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f46f09d-8167-44c3-8d9b-a5901d584469")
+	)
+	(wire
+		(pts
 			(xy 82.55 167.64) (xy 86.36 167.64)
 		)
 		(stroke
@@ -2245,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 81.915) (xy 49.53 81.915)
+			(xy 44.45 82.55) (xy 49.53 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2262,6 +2292,16 @@
 			(type default)
 		)
 		(uuid "72141c36-9b45-439d-ab39-f90cfeb3cf5e")
+	)
+	(wire
+		(pts
+			(xy 100.33 78.74) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ff79bc-68d2-4b77-8ceb-efb69d4a6acd")
 	)
 	(wire
 		(pts
@@ -2315,6 +2355,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 78.74) (xy 49.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759a10c5-bab0-4afd-9add-3c3e2f408e68")
+	)
+	(wire
+		(pts
 			(xy 154.94 73.66) (xy 156.21 73.66)
 		)
 		(stroke
@@ -2342,6 +2392,16 @@
 			(type default)
 		)
 		(uuid "77d771db-8a8c-4b28-9370-dc6db1d15f65")
+	)
+	(wire
+		(pts
+			(xy 49.53 78.74) (xy 50.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796ce098-bb73-469f-8a5e-a667943a53f9")
 	)
 	(wire
 		(pts
@@ -2415,16 +2475,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 84.455) (xy 49.53 88.265)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "838ab3df-4623-4215-a0a6-3338d8a10440")
-	)
-	(wire
-		(pts
 			(xy 45.72 125.73) (xy 54.61 125.73)
 		)
 		(stroke
@@ -2455,6 +2505,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 88.9) (xy 49.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8967c327-7114-4877-94bc-d761b736234e")
+	)
+	(wire
+		(pts
 			(xy 90.17 127) (xy 90.17 125.73)
 		)
 		(stroke
@@ -2482,6 +2542,16 @@
 			(type default)
 		)
 		(uuid "8b222900-7c59-45af-9bff-7b6d613f3848")
+	)
+	(wire
+		(pts
+			(xy 73.66 88.9) (xy 74.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4de153-ef0a-478d-bed1-892f208bff61")
 	)
 	(wire
 		(pts
@@ -2522,6 +2592,16 @@
 			(type default)
 		)
 		(uuid "8eec7238-6648-448b-a6f3-80163c0c197d")
+	)
+	(wire
+		(pts
+			(xy 99.06 88.9) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f12c7f0-5ce2-4575-9048-389c43c13c59")
 	)
 	(wire
 		(pts
@@ -2575,7 +2655,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 81.915) (xy 74.93 81.915)
+			(xy 71.12 82.55) (xy 74.93 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2665,16 +2745,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 73.66) (xy 49.53 78.105)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aff40332-2b19-4826-a1fc-829f7fbe79b8")
-	)
-	(wire
-		(pts
 			(xy 53.34 149.86) (xy 53.34 148.59)
 		)
 		(stroke
@@ -2715,6 +2785,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 78.74) (xy 74.93 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b357dd6d-6f17-45a3-8de9-1b951451cfb3")
+	)
+	(wire
+		(pts
 			(xy 151.13 80.01) (xy 156.21 80.01)
 		)
 		(stroke
@@ -2732,6 +2812,16 @@
 			(type default)
 		)
 		(uuid "ba82ee53-97f6-40b8-a356-658e6f35febd")
+	)
+	(wire
+		(pts
+			(xy 48.26 88.9) (xy 49.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa2df94-9236-40ad-962f-4008e519d190")
 	)
 	(wire
 		(pts
@@ -2755,13 +2845,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 81.915) (xy 100.33 81.915)
+			(xy 96.52 82.55) (xy 100.33 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c0654375-c7c3-4b9b-9236-9d87e2f1922d")
+	)
+	(wire
+		(pts
+			(xy 100.33 85.09) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d1e604-1e58-415b-9382-8ecd32c07d3b")
 	)
 	(wire
 		(pts
@@ -2792,6 +2892,16 @@
 			(type default)
 		)
 		(uuid "c8334d76-785a-43c2-bee5-8ee3fe9e6ba8")
+	)
+	(wire
+		(pts
+			(xy 49.53 85.09) (xy 49.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84a9d1b-dd4f-439a-ac47-723e218ffcf7")
 	)
 	(wire
 		(pts
@@ -2965,13 +3075,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 81.915) (xy 74.93 78.105)
+			(xy 74.93 82.55) (xy 74.93 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e1fc1e81-f000-4842-a1fe-2b79eaf81fa4")
+	)
+	(wire
+		(pts
+			(xy 74.93 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30e4b9d-64b7-4ca1-9bbb-c94e7abe6b54")
 	)
 	(wire
 		(pts
@@ -3135,7 +3255,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 78.105) (xy 49.53 81.915)
+			(xy 49.53 73.66) (xy 49.53 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3708,7 +3828,7 @@
 	)
 	(hierarchical_label "C_CSN"
 		(shape input)
-		(at 96.52 84.455 180)
+		(at 96.52 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3720,7 +3840,7 @@
 	)
 	(hierarchical_label "B_CSN"
 		(shape input)
-		(at 71.12 84.455 180)
+		(at 71.12 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3756,7 +3876,7 @@
 	)
 	(hierarchical_label "B_CSP"
 		(shape input)
-		(at 71.12 81.915 180)
+		(at 71.12 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3780,7 +3900,7 @@
 	)
 	(hierarchical_label "C_CSP"
 		(shape input)
-		(at 96.52 81.915 180)
+		(at 96.52 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3792,7 +3912,7 @@
 	)
 	(hierarchical_label "A_CSN"
 		(shape input)
-		(at 45.72 84.455 180)
+		(at 44.45 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3804,7 +3924,7 @@
 	)
 	(hierarchical_label "A_CSP"
 		(shape input)
-		(at 45.72 81.915 180)
+		(at 44.45 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4662,7 +4782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1676336c-7e37-4ff7-ade7-25dafe6f6688")
-		(property "Reference" "R28"
+		(property "Reference" "R31"
 			(at 158.242 82.296 0)
 			(effects
 				(font
@@ -4714,7 +4834,7 @@
 		(instances
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
-					(reference "R28")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -4782,6 +4902,75 @@
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Marijn:CSS2H-3920R-L500F")
+		(at 50.8 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3824ff76-820d-4646-99fc-186596a94208")
+		(property "Reference" "R26"
+			(at 52.07 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500u"
+			(at 52.07 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
+			(at 39.624 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
+			(at 49.022 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt resistor"
+			(at 48.006 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "551b0054-020c-4934-88de-1a13ec8e4908")
+		)
+		(pin "1"
+			(uuid "8ab87bfa-4460-401c-acc5-def788f4ad24")
+		)
+		(instances
+			(project "BLDC_driver"
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4942,6 +5131,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Marijn:CSS2H-3920R-L500F")
+		(at 76.2 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cc96ddd-754a-4e80-a314-8c4b80e69af7")
+		(property "Reference" "R28"
+			(at 77.47 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500u"
+			(at 77.47 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
+			(at 65.024 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
+			(at 74.422 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt resistor"
+			(at 73.406 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e8d1a5d-e782-4003-a8fb-4aac05807654")
+		)
+		(pin "1"
+			(uuid "a5b5dd3f-6a52-43ff-9886-8b506ad1c5d0")
+		)
+		(instances
+			(project "BLDC_driver"
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 168.91 0)
 		(unit 1)
@@ -5070,6 +5328,75 @@
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Marijn:CSS2H-3920R-L500F")
+		(at 101.6 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f0a24b8-08ea-4489-a6ac-d628867d2a7a")
+		(property "Reference" "R30"
+			(at 102.87 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500u"
+			(at 102.87 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
+			(at 90.424 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
+			(at 99.822 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt resistor"
+			(at 98.806 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b67d1b1-e94e-4b9b-a372-d3847ab60108")
+		)
+		(pin "1"
+			(uuid "8c950eef-04af-401c-8107-a4d4d6b2d277")
+		)
+		(instances
+			(project "BLDC_driver"
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -5349,7 +5676,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 88.265 0)
+		(at 74.93 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5357,7 +5685,7 @@
 		(dnp no)
 		(uuid "6583d100-cb78-4ebd-afc5-daec2b227332")
 		(property "Reference" "#PWR033"
-			(at 74.93 94.615 0)
+			(at 74.93 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +5694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 92.329 0)
+			(at 74.93 93.599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 88.265 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 88.265 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 88.265 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5878,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 88.265 0)
+		(at 100.33 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5558,7 +5886,7 @@
 		(dnp no)
 		(uuid "6a7c02c7-4d2e-4f99-9c2d-f1e2740a5490")
 		(property "Reference" "#PWR034"
-			(at 100.33 94.615 0)
+			(at 100.33 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 92.329 0)
+			(at 100.33 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 88.265 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 88.265 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 88.265 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +6150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79a77bd4-427c-4698-961f-1940012f10f2")
-		(property "Reference" "R31"
+		(property "Reference" "R34"
 			(at 92.964 122.174 0)
 			(effects
 				(font
@@ -5874,7 +6202,7 @@
 		(instances
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
-					(reference "R31")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -5889,7 +6217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d2be58c-b9af-4324-9548-ace8ff4e5484")
-		(property "Reference" "R32"
+		(property "Reference" "R35"
 			(at 92.964 142.494 0)
 			(effects
 				(font
@@ -5941,7 +6269,7 @@
 		(instances
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
-					(reference "R32")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -6016,16 +6344,15 @@
 	)
 	(symbol
 		(lib_id "Marijn:CSS2H-3920R-L500F")
-		(at 74.93 83.185 0)
+		(at 73.66 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "83a3500c-1801-492a-835f-652567191d6b")
-		(property "Reference" "R26"
-			(at 77.47 81.9149 0)
+		(property "Reference" "R27"
+			(at 68.072 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,8 +6360,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200u"
-			(at 77.47 84.4549 0)
+		(property "Value" "500u"
+			(at 66.802 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +6370,7 @@
 			)
 		)
 		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
-			(at 63.754 83.439 90)
+			(at 62.484 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +6379,7 @@
 			)
 		)
 		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
-			(at 73.152 70.485 0)
+			(at 71.882 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +6388,7 @@
 			)
 		)
 		(property "Description" "Shunt resistor"
-			(at 72.136 93.599 0)
+			(at 70.866 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +6405,7 @@
 		(instances
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -6160,7 +6487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8958e20a-0db1-4381-8dab-0a7a30f16519")
-		(property "Reference" "R29"
+		(property "Reference" "R32"
 			(at 189.992 82.296 0)
 			(effects
 				(font
@@ -6212,7 +6539,7 @@
 		(instances
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
-					(reference "R29")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6421,16 +6748,15 @@
 	)
 	(symbol
 		(lib_id "Marijn:CSS2H-3920R-L500F")
-		(at 100.33 83.185 0)
+		(at 99.06 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a3314be3-0131-4f02-a66f-a4d03c8d5d58")
-		(property "Reference" "R27"
-			(at 102.87 81.9149 0)
+		(property "Reference" "R29"
+			(at 93.218 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,8 +6764,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200u"
-			(at 102.87 84.4549 0)
+		(property "Value" "500u"
+			(at 92.202 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6774,7 @@
 			)
 		)
 		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
-			(at 89.154 83.439 90)
+			(at 87.884 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +6783,7 @@
 			)
 		)
 		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
-			(at 98.552 70.485 0)
+			(at 97.282 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,7 +6792,7 @@
 			)
 		)
 		(property "Description" "Shunt resistor"
-			(at 97.536 93.599 0)
+			(at 96.266 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6809,7 @@
 		(instances
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
-					(reference "R27")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -6700,7 +7026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbb16e38-dffe-4a3e-bc29-a006e5fbd48d")
-		(property "Reference" "R33"
+		(property "Reference" "R36"
 			(at 92.964 162.814 0)
 			(effects
 				(font
@@ -6752,7 +7078,7 @@
 		(instances
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
-					(reference "R33")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -7160,16 +7486,15 @@
 	)
 	(symbol
 		(lib_id "Marijn:CSS2H-3920R-L500F")
-		(at 49.53 83.185 0)
+		(at 48.26 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb97a098-060c-4fbf-96ab-d9b1d6c1c2a9")
 		(property "Reference" "R25"
-			(at 52.07 81.9149 0)
+			(at 42.672 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,8 +7502,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200u"
-			(at 52.07 84.4549 0)
+		(property "Value" "500u"
+			(at 41.402 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7512,7 @@
 			)
 		)
 		(property "Footprint" "Marijn_KiCad:CSS2H-3920R-xxxx"
-			(at 38.354 83.439 90)
+			(at 37.084 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7521,7 @@
 			)
 		)
 		(property "Datasheet" "https://nl.mouser.com/datasheet/2/54/css2h_3920-1862139.pdf"
-			(at 47.752 70.485 0)
+			(at 46.482 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7530,7 @@
 			)
 		)
 		(property "Description" "Shunt resistor"
-			(at 46.736 93.599 0)
+			(at 45.466 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +7886,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 88.265 0)
+		(at 49.53 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7569,7 +7894,7 @@
 		(dnp no)
 		(uuid "dcf7da52-13d5-4d93-bc55-85f744433218")
 		(property "Reference" "#PWR032"
-			(at 49.53 94.615 0)
+			(at 49.53 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7578,7 +7903,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 92.329 0)
+			(at 49.53 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,7 +7911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 88.265 0)
+			(at 49.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,7 +7920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 88.265 0)
+			(at 49.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +7929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 88.265 0)
+			(at 49.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7700,7 +8025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e53dd2e5-2cb2-431d-a05c-54239b1b3cea")
-		(property "Reference" "R30"
+		(property "Reference" "R33"
 			(at 219.202 82.296 0)
 			(effects
 				(font
@@ -7752,7 +8077,7 @@
 		(instances
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/156cc71e-604a-4062-8209-9f4827fd9816"
-					(reference "R30")
+					(reference "R33")
 					(unit 1)
 				)
 			)
