@@ -3138,6 +3138,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3659,6 +3779,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 49.53) (xy 142.24 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cae743a-9f89-4f1a-aea2-c9ba37e3d5b0")
+	)
+	(wire
+		(pts
 			(xy 67.31 176.53) (xy 67.31 177.8)
 		)
 		(stroke
@@ -3759,6 +3889,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 29.21) (xy 165.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3155fd99-dee2-4c94-b0b1-d8add7b19e2f")
+	)
+	(wire
+		(pts
 			(xy 135.89 175.26) (xy 144.78 175.26)
 		)
 		(stroke
@@ -3796,6 +3936,16 @@
 			(type default)
 		)
 		(uuid "3a60fbdf-d732-4eb2-b54d-a26c23830d03")
+	)
+	(wire
+		(pts
+			(xy 165.1 30.48) (xy 168.91 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6a45ed-38bb-4cee-a0a0-dcb41cb306c9")
 	)
 	(wire
 		(pts
@@ -3936,6 +4086,16 @@
 			(type default)
 		)
 		(uuid "555f24b8-f071-460a-af80-3711d5ebef73")
+	)
+	(wire
+		(pts
+			(xy 144.78 48.26) (xy 144.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584027d0-77f8-4ef3-aae4-f090813121e5")
 	)
 	(wire
 		(pts
@@ -4667,6 +4827,16 @@
 		)
 		(uuid "01bd5157-6eda-4060-ae9f-973ef8bec128")
 	)
+	(text "TODO: OPAMPS"
+		(exclude_from_sim no)
+		(at 149.352 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0f4c4f4b-0292-4f15-8a41-dbf3df19397d")
+	)
 	(text "https://controllerstech.com/stm32-timers-6-timer-synchronization-generate-3-phase-pwm/"
 		(exclude_from_sim no)
 		(at 224.536 127.762 0)
@@ -4716,16 +4886,6 @@
 			)
 		)
 		(uuid "6652b63a-0cfd-4f60-817d-13d24734f772")
-	)
-	(text "TODO"
-		(exclude_from_sim no)
-		(at 182.118 27.686 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7645075e-2b15-4601-a946-8d1379f3f951")
 	)
 	(text "USB"
 		(exclude_from_sim no)
@@ -4800,7 +4960,7 @@
 		(uuid "0bc9222a-4d08-44d9-ba1d-ae28580106c3")
 	)
 	(label "USB_DP"
-		(at 142.24 50.8 0)
+		(at 142.24 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4932,7 +5092,7 @@
 		(uuid "c4b82f2b-7438-4e01-9e85-9afa57420660")
 	)
 	(label "USB_DN"
-		(at 142.24 54.61 0)
+		(at 142.24 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5342,6 +5502,71 @@
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 144.78 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15ccc6a0-6ca9-4a7c-a67c-0903a34a1565")
+		(property "Reference" "#PWR058"
+			(at 144.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8697bfd3-5823-43a6-861f-7c5da65f0fc0")
+		)
+		(instances
+			(project "BLDC_driver"
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7740,6 +7965,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 165.1 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c08bdc4d-2a6a-4166-8a50-fe7e8d5f28ec")
+		(property "Reference" "#PWR056"
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 165.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4932dc9-76a5-45f1-89c8-d65191e56600")
+		)
+		(instances
+			(project ""
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 114.3 146.05 0)
 		(unit 1)
@@ -8991,8 +9281,8 @@
 		)
 	)
 	(sheet
-		(at 102.87 47.625)
-		(size 39.37 10.16)
+		(at 102.87 46.99)
+		(size 39.37 12.065)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -9003,7 +9293,7 @@
 		)
 		(uuid "bcef801b-ac65-4b5b-aaac-ab2b26da4b0f")
 		(property "Sheetname" "USB"
-			(at 102.87 46.9134 0)
+			(at 102.87 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +9302,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 102.87 58.3696 0)
+			(at 102.87 59.6396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9021,7 +9311,7 @@
 			)
 		)
 		(pin "USB_DP" input
-			(at 142.24 50.8 0)
+			(at 142.24 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9031,7 +9321,7 @@
 			(uuid "e75557c3-3713-41fe-9aaf-a673f50876fb")
 		)
 		(pin "USB_DN" input
-			(at 142.24 54.61 0)
+			(at 142.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,6 +9329,16 @@
 				(justify right)
 			)
 			(uuid "42282cf6-dff9-4985-b3db-4d1e669bc4b0")
+		)
+		(pin "5VOUT" input
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "763ce11d-fd29-4cc0-b39a-c2396f179ffe")
 		)
 		(instances
 			(project "BLDC_driver"
@@ -9107,6 +9407,16 @@
 				(justify left)
 			)
 			(uuid "99a6399d-1165-4c50-894f-3e49181e3d5d")
+		)
+		(pin "5VIN" input
+			(at 168.91 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c9c70bd-40d5-411a-8ad6-9e1d89068d86")
 		)
 		(instances
 			(project "BLDC_driver"
