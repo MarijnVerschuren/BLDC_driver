@@ -731,7 +731,7 @@
 				)
 			)
 		)
-		(symbol "Diode:BAT54AW"
+		(symbol "Diode:BAT54C"
 			(pin_names
 				(offset 1.016)
 			)
@@ -747,7 +747,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BAT54AW"
+			(property "Value" "BAT54C"
 				(at -6.35 3.175 0)
 				(effects
 					(font
@@ -756,7 +756,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 1.905 3.175 0)
 				(effects
 					(font
@@ -766,8 +766,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
-				(at -3.048 0 0)
+			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+				(at -2.032 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -775,7 +775,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual schottky barrier diode, common anode, SOT-323"
+			(property "Description" "dual schottky barrier diode, common cathode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -784,7 +784,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "dual schottky diode"
+			(property "ki_keywords" "schottky diode common cathode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -793,7 +793,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?323*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -802,79 +802,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BAT54AW_0_1"
-				(polyline
-					(pts
-						(xy -4.445 1.27) (xy -4.445 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -3.175 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -4.445 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.27) (xy -3.175 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "BAT54C_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0) (xy 1.905 0)
@@ -889,7 +817,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 3.81 0)
+						(xy -1.905 1.27) (xy -1.905 1.016)
 					)
 					(stroke
 						(width 0)
@@ -901,7 +829,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 -1.27) (xy 3.175 -1.016)
+						(xy -1.27 -1.27) (xy -0.635 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -913,7 +841,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -1.27) (xy 3.175 -1.27)
+						(xy -1.27 0) (xy -3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -925,7 +853,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -1.27) (xy 3.81 1.27)
+						(xy -1.27 1.27) (xy -1.905 1.27)
 					)
 					(stroke
 						(width 0)
@@ -937,7 +865,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 1.27) (xy 4.445 1.27)
+						(xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -949,7 +877,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.445 1.27) (xy 4.445 1.016)
+						(xy -0.635 -1.27) (xy -0.635 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -961,7 +889,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 1.27) (xy -1.905 -1.27) (xy -3.81 0) (xy -1.905 1.27)
+						(xy 0.635 -1.27) (xy 0.635 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -973,7 +901,79 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 1.27) (xy 1.905 -1.27) (xy 3.81 0) (xy 1.905 1.27)
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -3.175 1.27) (xy -1.27 0) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.175 1.27) (xy 1.27 0) (xy 3.175 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -995,7 +995,7 @@
 					)
 				)
 			)
-			(symbol "BAT54AW_1_1"
+			(symbol "BAT54C_1_1"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -1052,7 +1052,7 @@
 				)
 			)
 		)
-		(symbol "Marijn:AP7343D-33W5"
+		(symbol "Marijn:AP7343"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1099,7 +1099,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP7343D-33W5_0_1"
+			(symbol "AP7343_0_1"
 				(rectangle
 					(start -15.24 -1.27)
 					(end 1.27 -11.43)
@@ -1112,7 +1112,7 @@
 					)
 				)
 			)
-			(symbol "AP7343D-33W5_1_1"
+			(symbol "AP7343_1_1"
 				(text "AP7343D-33W5"
 					(at -6.858 -6.35 0)
 					(effects
@@ -2835,17 +2835,6 @@
 		)
 		(uuid "8ad1fe25-11f2-490b-9f31-523603323a05")
 	)
-	(label "a"
-		(at 91.44 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ddd9f20c-b5e0-4011-b190-709ce44d50ff")
-	)
 	(hierarchical_label "5VIN"
 		(shape input)
 		(at 63.5 165.1 180)
@@ -3638,44 +3627,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54AW")
-		(at 102.87 152.4 90)
+		(lib_id "Marijn:AP7343")
+		(at 92.71 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3dd6d3eb-3295-477f-a567-a56556f51224")
-		(property "Reference" "D15"
-			(at 108.712 149.352 90)
+		(uuid "5a9c876e-2300-42eb-99bb-e07e32ccdf56")
+		(property "Reference" "U9"
+			(at 92.71 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BAT54AW"
-			(at 113.284 154.94 90)
+		(property "Value" "AP7343"
+			(at 85.725 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 99.695 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
-			(at 102.87 155.448 0)
+		(property "Footprint" "Marijn_KiCad:SOT-25"
+			(at 85.598 177.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,8 +3660,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual schottky barrier diode, common anode, SOT-323"
-			(at 102.87 152.4 0)
+		(property "Datasheet" "https://stm32-base.org/assets/pdf/regulators/AP7343.pdf"
+			(at 85.598 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5v -> 3v3"
+			(at 82.804 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,18 +3679,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "f5da8678-a4d1-4414-8581-64e89a740ae5")
-		)
-		(pin "1"
-			(uuid "ca951cb9-7685-4459-b46c-8e881eddec78")
+			(uuid "66cefd8b-8c28-4ada-9005-3c192b5ebd70")
 		)
 		(pin "2"
-			(uuid "c7ce8153-324d-401e-a507-a8c92928c07d")
+			(uuid "6f791194-80d7-4d0b-aac7-bbfc457e8a8f")
+		)
+		(pin "1"
+			(uuid "95b2b343-c880-4b1f-85f3-107d966f4859")
+		)
+		(pin "5"
+			(uuid "605f81a5-623d-4aca-a8fb-7d09a18d05b2")
 		)
 		(instances
-			(project ""
+			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/cf979161-f881-4975-b113-b0ad6afb809e"
-					(reference "D15")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4347,79 +4336,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Marijn:AP7343D-33W5")
-		(at 92.71 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7baed06f-6a5c-4972-854a-993a43305653")
-		(property "Reference" "U9"
-			(at 85.598 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 85.725 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom:SOT-25"
-			(at 85.598 177.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://stm32-base.org/assets/pdf/regulators/AP7343.pdf"
-			(at 85.598 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5v -> 3v3"
-			(at 82.804 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "168b814b-5ac8-4267-9b5a-47c480a99c2f")
-		)
-		(pin "3"
-			(uuid "43b1dda2-6815-4f54-ba76-938b45994fd1")
-		)
-		(pin "1"
-			(uuid "091a8d53-469d-470b-ad58-984798bcdc7b")
-		)
-		(pin "2"
-			(uuid "0e51cd52-f1fa-4def-a40a-89d7ae3f916b")
-		)
-		(instances
-			(project ""
-				(path "/6f399879-dc45-4210-87b6-ea005f89c132/cf979161-f881-4975-b113-b0ad6afb809e"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 100.33 77.47 0)
 		(unit 1)
@@ -4479,6 +4395,79 @@
 			(project "BLDC_driver"
 				(path "/6f399879-dc45-4210-87b6-ea005f89c132/cf979161-f881-4975-b113-b0ad6afb809e"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 102.87 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86d98625-b0a2-4388-ab73-908648f311e2")
+		(property "Reference" "D15"
+			(at 111.506 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 113.284 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 99.695 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 102.87 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "dual schottky barrier diode, common cathode"
+			(at 102.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0724720-4320-4a9c-9b74-843673536061")
+		)
+		(pin "1"
+			(uuid "964288ae-589b-491c-8189-3bb850eceda7")
+		)
+		(pin "3"
+			(uuid "583c1140-0504-47cf-8788-412fb8299e75")
+		)
+		(instances
+			(project "BLDC_driver"
+				(path "/6f399879-dc45-4210-87b6-ea005f89c132/cf979161-f881-4975-b113-b0ad6afb809e"
+					(reference "D15")
 					(unit 1)
 				)
 			)
